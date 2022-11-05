@@ -62,7 +62,7 @@
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1   &mo 3  &kp F7        &kp F8      &kp F9  &kp F10           &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans  &kp C_VOL_UP  &kp C_NEXT   &trans  &kp LA(LG(LEFT))   &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                             &trans            &trans    &none             &trans  &kp C_VOL_DN  &kp C_PLAY_PAUSE  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans         &none       &none   &trans             &none    &none  &kp LA(LG(RIGHT))    &kp K_MUTE        &kp C_PREV  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans         &none       &none   &trans             &none    &none  &kp LA(LG(RIGHT))    &kp C_MUTE        &kp C_PREV  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans        &trans      &trans   &trans            &trans   &trans             &trans        &trans
             >;
         };
