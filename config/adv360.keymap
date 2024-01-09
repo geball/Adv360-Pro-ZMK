@@ -42,7 +42,7 @@
             bindings = <
  &kp EQUAL     &kp N1           &kp N2    &kp N3     &kp N4  &kp N5                                   &tog 1                                                                                           &mo 3  &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q            &kp W     &kp E      &kp R   &kp T            &mt LC(LEFT_ALT) LG(NUMBER_1)                                                             &mt LC(LA(LEFT_SHIFT)) LG(NUMBER_3)   &kp Y     &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A            &kp S     &kp D      &kp F   &kp G                    &mt RALT LG(NUMBER_2)  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL           &mt RIGHT_ALT LG(NUMBER_4)   &kp H     &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+   &kp ESC      &kp A            &kp S     &kp D      &kp F   &kp G               &mt RIGHT_ALT LG(NUMBER_2)  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL           &mt RIGHT_ALT LG(NUMBER_4)   &kp H     &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z            &kp X     &kp C      &kp V   &kp B                                                      &kp HOME                  &kp PG_UP                                                   &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
      &mo 2  &kp GRAVE  &kp PRINTSCREEN  &kp LEFT  &kp RIGHT                                         &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER                            &kp SPACE          &kp DOWN     &kp UP  &kp LBKT  &kp RBKT      &mo 2
             >;
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4    &kp F5  &kp F6               &tog 1                                                         &mo 3  &kp F7        &kp F8      &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans    &trans  &trans                &none                                                         &none  &trans  &kp C_VOL_UP  &kp C_NEXT   &trans   &trans   &trans
- &trans  &trans  &trans  &trans    &trans  &trans                &none     &trans  &trans                  &trans  &trans      &none  &trans  &kp C_VOL_DN    &kp C_PP   &trans   &trans   &trans
- &trans  &trans  &trans  &trans    &trans  &trans                                  &trans                  &trans                     &trans    &kp C_MUTE  &kp C_PREV   &trans   &trans   &trans
- &trans  &trans  &trans  &kp UP  &kp DOWN                    &kp SPACE  &kp ENTER  &trans                  &trans  &trans  &kp SPACE              &kp LEFT   &kp RIGHT   &trans   &trans   &trans
+ &kp F1  &kp F2      &kp F3  &kp F4    &kp F5  &kp F6               &tog 1                                                         &mo 3  &kp F7        &kp F8      &kp F9  &kp F10  &kp F11  &kp F12
+ &trans  &trans      &trans  &trans    &trans  &trans                &none                                                         &none  &trans  &kp C_VOL_UP  &kp C_NEXT   &trans   &trans   &trans
+ &trans  &trans      &trans  &trans    &trans  &trans                &none     &trans  &trans                  &trans  &trans      &none  &trans  &kp C_VOL_DN    &kp C_PP   &trans   &trans   &trans
+ &trans  &trans      &trans  &trans    &trans  &trans                                  &trans                  &trans                     &trans    &kp C_MUTE  &kp C_PREV   &trans   &trans   &trans
+ &trans  &trans  &kp SYSREQ  &kp UP  &kp DOWN                    &kp SPACE  &kp ENTER  &trans                  &trans  &trans  &kp SPACE              &kp LEFT   &kp RIGHT   &trans   &trans   &trans
             >;
         };
 
@@ -74,7 +74,7 @@
   &none         &none         &none         &none         &none         &none                &bootloader                                                                         &bootloader   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none         &none                      &none  &bt BT_CLR   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none    &macro_ver         &none                                          &none                       &none                                       &none       &none       &none   &none   &none   &none
-  &none         &none         &none    &bl BL_INC    &bl BL_DEC                          &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_DEC  &bl BL_INC   &none   &none   &none
+  &none         &none         &none    &bl BL_DEC    &bl BL_INC                          &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_DEC  &bl BL_INC   &none   &none   &none
             >;
         };
 
